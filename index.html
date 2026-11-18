@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>DevAcademy – Apprenez à coder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Navbar (Flexbox) -->
+    <header class="navbar">
+      <a href="#" class="logo">Dev<span>Academy</span></a>
+      <nav class="nav-links">
+        <a href="#accueil">Accueil</a>
+        <a href="#formations">Formations</a>
+        <a href="#a-propos">À propos</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a href="#" class="btn btn-outline">Connexion</a>
+    </header>
+
+    <main>
+      <!-- Section Hero -->
+      <section class="hero" id="accueil">
+        <div class="hero-text">
+          <h1>Apprenez le développement web, pas à pas</h1>
+          <p>
+            Des formations courtes et concrètes en HTML, CSS, JavaScript et plus
+            encore, pour construire de vrais projets dès la première semaine.
+          </p>
+          <a href="#formations" class="btn btn-primary">Voir les formations</a>
+        </div>
+        <div class="hero-image">
+          <img
+            src="developpeur-web.jpg"
+            alt="Développement web"
+            width="400"
+            height="300"
+            style="
+              width: 100%;
+              max-width: 400px;
+              height: auto;
+              border-radius: 12px;
+              object-fit: cover;
+            "
+          />
+        </div>
+        <!--les cartes de cours-->
+      </section>
+      <section class="courses" id="formations">
+        <h2>Nos formations</h2>
+        <div class="course-grid">
+          <article class="course-card">
+            <div class="card-img" style="--c: #06d6a0">Git & GitHub</div>
+            <h3>Git et GitHub</h3>
+            <p>Versionner et partager son code en équipe.</p>
+          </article>
+
+          <article class="course-card">
+            <div class="card-img" style="--c: #4cc9f0">HTML</div>
+            <h3>HTML Basics</h3>
+            <p>Structurer une page web propre et accessible.</p>
+          </article>
+
+          <article class="course-card">
+            <div class="card-img" style="--c: #7b61ff">CSS</div>
+            <h3>CSS Essentials</h3>
+            <p>Responsive Web Design avec CSS Libraries I(Bootstrap)</p>
+          </article>
+          <!--  badges promotionnels positionnés sur les 2 cartes suivantes. -->
+          <article class="course-card">
+            <span class="badge">-30%</span>
+            <div class="card-img" style="--c: #ffb703">JavaScript</div>
+            <h3>Javascript Foundations</h3>
+            <p>Concepts de base de JavaScript.</p>
+          </article>
+
+          <article class="course-card">
+            <span class="badge">-30%</span>
+            <div class="card-img" style="--c: #ffb703">Python</div>
+            <h3>Python Foundations</h3>
+            <p>Concepts de base et avancés de Python.</p>
+          </article>
+          <!--  Badge "NEW" -->
+          <article class="course-card">
+            <span class="badge">NEW</span>
+            <div class="card-img" style="--c: #ef476f">DevOps</div>
+            <h3>Introduction à DevOps</h3>
+            <p>Automatiser et optimiser le processus de déploiement.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+    <!--  Footer. -->
+    <footer class="footer" id="a-propos">
+      <div class="footer-inner">
+        <p class="logo">Dev<span>Academy</span></p>
+        <p>Plateforme de formation en ligne au développement web.</p>
+        <p class="copy">&copy; 2026 DevAcademy. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <a href="#contact" id="contact" class="float-contact">Contact Shedy 😊</a>
+  </body>
+</html>
